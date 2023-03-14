@@ -4,9 +4,12 @@ namespace Carre
 {
     class Program
     {
-        static void Main(int i)
+        static void Main(string[] args)
         {
-            Console.WriteLine("Son carré fait : %d",i*i);
+            int i=0;
+            Console.WriteLine("Donnez un nombre :");
+            i = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Le carré vaut : {i*i}");
         }
     }
 }
