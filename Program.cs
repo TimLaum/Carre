@@ -10,7 +10,8 @@ namespace Carre
 	}
         static void Main(string[] args)
         {
-           Console.WriteLine($"Le carré vaut : {Carre(4)}");
+           int x = Convert.ToInt32(Console.ReadLine());
+           Console.WriteLine($"Le carré vaut : {Carre(x)}");
         }
     }
 }
